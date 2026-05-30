@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>African Vibe Animation | Cinematic Excellence</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        background: "#0A0A0C",
+                        surface: "#121216",
+                        gold: "#D4AF37",
+                        purple: "#7C3AED",
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Space Grotesk', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body { background-color: #0A0A0C; color: white; scroll-behavior: smooth; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(15px); border: 1px solid rgba(255, 255, 255, 0.08); }
+        .hero-glow { background: radial-gradient(circle at center, rgba(124, 58, 237, 0.15) 0%, transparent 70%); }
+        .card-hover:hover { border-color: #D4AF37; transform: translateY(-5px); transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="font-sans antialiased">
+
+    <nav class="fixed top-0 w-full z-50 glass py-4 px-6 flex justify-between items-center">
+        <div class="font-display font-bold text-lg tracking-tighter">
+            AFRICAN VIBE <span class="text-gold font-light text-[10px] tracking-widest ml-2 border border-gold/30 px-2 rounded-full uppercase">Studios</span>
+        </div>
+        <div class="hidden md:flex gap-8 text-[10px] font-bold tracking-widest uppercase text-neutral-400">
+            <a href="#animations" class="hover:text-white transition">Animations</a>
+            <a href="#universe" class="hover:text-white transition">Universe</a>
+            <a href="#contact" class="bg-white text-black px-4 py-2 rounded-full">Contact</a>
+        </div>
+        <i data-lucide="menu" class="md:hidden"></i>
+    </nav>
+
+    <section class="relative min-h-screen flex items-center justify-center px-6 hero-glow pt-20">
+        <div class="max-w-4xl text-center reveal">
+            <div class="inline-flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-1 rounded-full mb-8">
+                <i data-lucide="sparkles" class="w-3 h-3 text-gold"></i>
+                <span class="text-[10px] font-bold tracking-[0.3em] uppercase text-neutral-300">Afro-Futuristic Vision</span>
+            </div>
+            <h1 class="font-display text-5xl md:text-8xl font-bold leading-tight mb-8 bg-gradient-to-b from-white to-neutral-500 bg-clip-text text-transparent">
+                Bringing African Stories To Life
+            </h1>
+            <p class="text-neutral-400 text-lg md:text-xl font-light mb-12 max-w-2xl mx-auto">
+                African Vibe Animation creates powerful stories, comedy, and history through world-class digital storytelling.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="#animations" class="w-full sm:w-auto bg-white text-black px-10 py-4 rounded-full font-bold flex items-center justify-center gap-2 transition hover:scale-105">
+                    <i data-lucide="play" class="fill-black w-4 h-4"></i> Watch Animations
+                </a>
+                <a href="#contact" class="w-full sm:w-auto glass px-10 py-4 rounded-full font-semibold transition hover:bg-white/10">
+                    Explore Universe
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="animations" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="mb-16 reveal">
+            <h2 class="text-gold font-bold tracking-widest text-xs uppercase mb-2">Cinematic Gallery</h2>
+            <p class="font-display text-4xl font-bold">Featured Works</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="card-hover glass rounded-3xl overflow-hidden reveal">
+                <div class="aspect-video bg-neutral-900 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800" class="w-full h-full object-cover opacity-80" alt="Animation">
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="w-12 h-12 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center">
+                            <i data-lucide="play" class="text-white w-5 h-5"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-8">
+                    <span class="text-[10px] font-bold text-purple uppercase tracking-widest">History</span>
+                    <h3 class="text-xl font-bold mt-2">The Rise of Shaka</h3>
+                </div>
+            </div>
+            <div class="card-hover glass rounded-3xl overflow-hidden reveal" style="transition-delay: 0.1s;">
+                <div class="aspect-video bg-neutral-900 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=800" class="w-full h-full object-cover opacity-80" alt="Animation">
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="w-12 h-12 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center">
+                            <i data-lucide="play" class="text-white w-5 h-5"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-8">
+                    <span class="text-[10px] font-bold text-purple uppercase tracking-widest">Folklore</span>
+                    <h3 class="text-xl font-bold mt-2">Anansi & The Sky</h3>
+                </div>
+            </div>
+            <div class="card-hover glass rounded-3xl overflow-hidden reveal" style="transition-delay: 0.2s;">
+                <div class="aspect-video bg-neutral-900 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?auto=format&fit=crop&w=800" class="w-full h-full object-cover opacity-80" alt="Animation">
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <div class="w-12 h-12 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center">
+                            <i data-lucide="play" class="text-white w-5 h-5"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-8">
+                    <span class="text-[10px] font-bold text-purple uppercase tracking-widest">Comedy</span>
+                    <h3 class="text-xl font-bold mt-2">Naija Vibe Skits</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 px-6 max-w-5xl mx-auto reveal">
+        <div class="glass p-12 rounded-[3rem] text-center">
+            <h2 class="font-display text-4xl font-bold mb-6">Let's Create Magic</h2>
+            <p class="text-neutral-400 mb-12">Contact us for world-class African storytelling.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left max-w-2xl mx-auto mb-12">
+                <div class="space-y-4 font-mono text-xs text-neutral-400 uppercase tracking-widest">
+                    <p class="text-white">Phones:</p>
+                    <p>09036491102</p>
+                    <p>09159959865</p>
+                    <p>09037745988</p>
+                </div>
+                <div class="space-y-4 font-mono text-xs text-neutral-400 uppercase tracking-widest">
+                    <p class="text-white">Email:</p>
+                    <p class="lowercase">africanvibeanimination@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="flex justify-center gap-6">
+                <a href="https://youtube.com/@africananimation-d6p" class="hover:text-gold transition"><i data-lucide="youtube"></i></a>
+                <a href="https://vm.tiktok.com/ZNRkSdesB/" class="hover:text-gold transition"><i data-lucide="video"></i></a>
+                <a href="https://facebook.com" class="hover:text-gold transition"><i data-lucide="facebook"></i></a>
+                <a href="https://instagram.com" class="hover:text-gold transition"><i data-lucide="instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center text-neutral-600 text-[10px] tracking-[0.4em] uppercase">
+        © African Vibe Animation — Produced 2026
+    </footer>
+
+    <script>
+        // Init Icons
+        lucide.createIcons();
+        // Init Scroll Reveal
+        ScrollReveal().reveal('.reveal', { 
+            delay: 200, 
+            distance: '20px', 
+            origin: 'bottom', 
+            easing: 'cubic-bezier(0.5, 0, 0, 1)' 
+        });
+    </script>
+</body>
+  </html>
+  
